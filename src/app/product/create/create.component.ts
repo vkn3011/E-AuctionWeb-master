@@ -70,10 +70,10 @@ export class CreateComponent implements OnInit {
 
     let productparam: ProductInfo = new ProductInfo();
     //if (this.lstProducts == undefined || this.lstProducts == 'undefined') {
-      productparam.ProductId = 1;
+     // productparam.ProductId = 1;
     //}
     //else {
-    //  productparam.ProductId = (this.lstProducts[this.lstProducts.length - 1].productId) + 1;
+      productparam.ProductId = (this.lstProducts[this.lstProducts.length - 1].productId) + 1;
     //}
     productparam.SellerId = this.sellerId;
     productparam.BidEndDate = new Date(this.endDate.value);

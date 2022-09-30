@@ -5,8 +5,8 @@
 export const environment = {
   production: false,
   //apiServer: 'http://localhost:3000/api/',
-  apiServer:'https://localhost:55000/',
-  imagePath: 'http://localhost:55000/images/',
+  apiServer:'https://localhost:44348/',
+  imagePath: 'http://localhost:44348/images/',
   titlePrefix: 'Online Auction',
   auth: {
     domain:"dev-1zr6n7e7.us.auth0.com",
