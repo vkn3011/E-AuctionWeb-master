@@ -44,7 +44,7 @@ header h1 {
 nav > a {
   text-transform: uppercase;
 }
-.bg-light {
+.bg-light { 
   background-color: #fc03b1 !important;
 }
 
